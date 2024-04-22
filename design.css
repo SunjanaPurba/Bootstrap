@@ -1,3 +1,35 @@
-.image-car img{
+/* .image-car img{
     height: 700px;
+} */
+
+.navbar-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: lavender;
+    padding: 15px;
+    font-weight: bold;
 }
+.navbar-section a{
+    text-decoration: none;
+}
+
+@media only screen and (max-width:1000px){
+    .navbar-section2{
+        display: block;
+    }
+    .navbar-section{
+        display: none;
+    }
+}
+@media only screen and (min-width:1001px) and (max-width:2600px){
+    .navbar-section2{
+        display: none;
+    }
+    .navbar-section{
+        display: block;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+}
+
